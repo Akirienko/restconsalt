@@ -1,0 +1,364 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+@import "base"
+@import "remodal"
+@import "slick"
+
+.head
+  background-color: #151542
+  padding: 0.8rem
+  color: #c6a669
+  .phones
+    color: #c6a669
+    display: flex
+    .phone
+      margin: auto
+      i
+        font-size: 0.8rem
+        margin-right: 0.5rem
+      a
+        color: #c6a669
+        text-decoration: none
+  .mail
+    margin-left: 24rem
+    text-align: end
+    margin-right: 2rem
+    a
+      color: #c6a669
+  .icons
+    display: flex
+    a
+      color: #c6a669
+      i
+        padding-right: 0.5rem
+
+.first
+  background-image: url(../img/bg1.jpg)
+  .text
+    background-color: rgba(0,0,51,0.8)
+    color: #c6a669
+    margin: 15rem 0
+    text-align: center
+    h4
+      padding: 2rem
+      text-transform: uppercase
+
+.secondRight
+  background-color: #cfbc95
+  .text
+    p
+      span
+        font-size: 1.5rem
+        font-weight: bolder
+        line-height: 3rem
+    .list
+      display: block
+  .img
+    margin: auto
+
+.secondLeft
+  background-color: #3c4571
+  color: #c6a669
+  .text
+    p
+      line-height: 1.8rem
+      span
+        font-size: 1.5rem
+        font-weight: bolder
+        line-height: 3rem
+    .list
+      display: block
+  .img
+    margin: auto
+    text-align: center
+
+.threeServices
+  background-color: #3c4571
+  padding: 0
+  .threeServiseItem
+    padding: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    overflow: hidden
+    img 
+      width: 100%
+      height: 100%
+      object-fit: cover
+      object-position: center
+      z-index: 1
+      transition: all .5s linear
+    .servise1
+      position: absolute
+      transition: all .7s linear
+      transition-delay: .15s
+      z-index: 2
+      color: #cfbc95
+      margin: auto
+      font-size: 1.5rem
+      font-weight: 900
+      cursor: pointer
+      text-transform: uppercase
+    &:hover 
+      cursor: pointer
+      img 
+        transform: scale(1.1)
+      p 
+        transform: scale(1.1)
+  .text
+    background-color: white
+    padding: 3rem 0 1.5rem 0
+    p
+      span
+        font-size: 1.5rem
+        font-weight: bolder
+  
+
+.fourth
+  .team
+    text-align: center
+    padding-bottom: 1.5rem
+    padding-top: 1rem
+    p
+      span
+        font-size: 1.8rem
+        font-weight: bold
+  .empl
+    width: 90%
+    height: 70%
+  h5
+    margin-top: 1rem
+    font-size: 1.5rem
+    padding-bottom: .5rem
+  .info
+    color: #9c9a9a
+    font-size: .7rem
+    padding-right: 2rem
+    line-height: 1rem
+    font-weight: bold
+
+.fifth
+  background-image: url(../img/bg2.jpg)
+  .box
+    background-color: rgba(0,0,0,.5)
+    padding: 1rem
+    border: 0.1rem solid #cfbc95
+    color: #cfbc95
+    margin-top: 4rem
+    margin-bottom: 2rem
+    p
+      font-size: 1.2rem
+      padding: .5rem .5rem .5rem 2rem
+      margin-bottom: 1.5rem
+      span
+        font-size: 1.5rem
+        text-transform: uppercase
+        font-weight: bolder
+        line-height: 1.8rem
+    .form
+      input
+        background: none
+        border: 0.1rem solid #cfbc95
+        margin-left: 1.5rem
+        margin-bottom: 1rem
+        color: #cfbc95
+      .button
+        background-color: #cfbc95
+        color: black
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 1.5rem
+        width: 100%
+        border: none
+        margin-left: 1.5rem
+        padding: .8rem
+        margin-bottom: 2.5rem
+  .right
+    color: #cfbc95
+    padding-top: 4rem
+    .list
+      display: block
+      margin: .5rem 0 2rem 0px
+      li
+
+.sixth
+  h5
+    font-size: 2vw
+    margin: .1rem 0
+    line-height: 1
+    text-align: center
+    padding-top: 1rem
+  img 
+    width: 100%
+  .customers
+    margin-top: 1.5rem
+    p
+      line-height: 1.3rem
+      font-weight: 700
+      font-size: .7rem
+      padding-bottom: .7rem
+      span
+        font-size: 1.1rem
+        padding: .5rem 0
+        margin-bottom: 1rem
+    .info
+      color: #9c9a9a
+      padding-right: 2rem
+      line-height: .9rem
+      padding-top: 1.3rem
+
+.futer
+  background-color: #3c4571
+  padding: 0
+  .left
+    background-image: url(../img/futer.jpg)
+    .contacts
+      padding: 16rem 1rem 8rem 11rem
+      color: #cfbc95
+      .phone
+        padding-bottom: 1rem
+        font-size: 1.2rem
+        i
+          padding-right: .5rem
+        a
+          color: #cfbc95
+      .mail
+        i
+          padding-right: .5rem
+        a
+          color: #cfbc95
+          font-size: 1.2rem
+  .right
+    background-color: #3c4571
+    color: #cfbc95
+    padding-top: 5rem
+    h5
+      padding-right: 19rem
+      padding-left: 2rem
+      line-height: 2.5rem
+      text-transform: uppercase
+      font-size: 1.6rem
+    .form
+      padding-top: 1rem
+      input
+        background: none
+        border: 0.1rem solid #cfbc95
+        margin-left: 1.5rem
+        margin-bottom: 1.5rem
+        color: #cfbc95
+      .button
+        background-color: #cfbc95
+        color: black
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 1.5rem
+        width: 23rem
+        border: none
+        margin-left: 2.2rem
+        padding: .8rem
+        margin-bottom: 2.5rem
+
+.form-error
+  margin-left: 1.5rem!important
+        
+.viber
+  z-index: 5
+  position: fixed
+  right: 1rem
+  bottom: 2rem
+  border-radius: 100%
+  -webkit-animation: pulsing 2s infinite
+  animation: pulsing 2s infinite
+    
+@-webkit-keyframes pulsing 
+  0% 
+    -webkit-transform: scale(0.5, 0.5)
+    transform: scale(0.5, 0.5)
+  50%
+    -webkit-transform: scale(1.0, 1.0)
+    transform: scale(1.0, 1.0)
+  100% 
+    -webkit-transform: scale(0.5, 0.5)
+    transform: scale(0.5, 0.5)
+  
+@keyframes pulsing 
+  0%
+    -webkit-transform: scale(0.5, 0.5)
+    transform: scale(0.5, 0.5)
+  50% 
+    -webkit-transform: scale(0.8, 0.8)
+    transform: scale(0.8, 0.8)
+  100%
+    -webkit-transform: scale(0.5, 0.5)
+    transform: scale(0.5, 0.5)
+
+
+
+
+hr
+  border: none
+  background-color: #cfbc95
+  color: #cfbc95
+  height: 2px
+  margin: 1rem 5rem 1rem 2rem
+// .one
+//   background-image: url(../img/1.jpg)
+//   margin: 0
+//   padding: 0
+//   height: 16rem
+//   display: flex
+// .two
+//   background-image: url(../img/2.jpg)
+//   margin: 0
+//   padding: 0
+//   height: 16rem
+//   display: flex
+// .three
+//   background-image: url(../img/3.jpg)
+//   margin: 0
+//   padding: 0
+//   height: 16rem
+//   display: flex
+// .four
+//   background-image: url(../img/4.jpg)
+//   margin: 0
+//   padding: 0
+//   height: 16rem
+//   display: flex
+// .five
+//   background-image: url(../img/5.jpg)
+//   margin: 0
+//   padding: 0
+//   height: 16rem
+//   display: flex
+// .six
+//   background-image: url(../img/6.jpg)
+//   margin: 0
+//   padding: 0
+//   height: 16rem
+//   display: flex
+
+.form-item
+  padding: 0 1.4rem 1rem 1.4rem
+
+.remodal-rewritre
+  box-shadow: 0 0 30px rgba(0,0,0, .8)
+  background-image: url(../img/modal.jpg)
+  padding: 3rem!important
+  color: #cfbc95
+  background-repeat: round
+  p
+    padding-top: 1rem
+    text-align: left
+    span
+      font-size: 1.1rem
+      font-weight: bold
+      text-transform: uppercase
+  .ModList
+    display: block
+    padding-top: 1rem
+    text-align: left
+  
+
+@import "media"

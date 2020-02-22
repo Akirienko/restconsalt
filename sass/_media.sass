@@ -1,0 +1,215 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+
+// ≥768px
++media-breakpoint-down(sm)
+
+// ≥576px
++media-breakpoint-down(xs)
+  html,body
+    font-size: 3.5vw
+
+  h1
+    font-size: 3.5rem
+  h2
+    font-size: 2.7rem
+  h3
+    font-size: 2.5rem
+  h4
+    font-size: 2.2rem
+  h5
+    font-size: 2rem
+
+  .head
+    .phones
+      display: block
+      .phone
+        padding-bottom: .3rem
+    .mail
+      margin: 0
+      padding: 1.5rem 0rem 0rem 0rem
+    .icons
+      padding: 1.4rem 0 0 1.5rem
+  .sixth 
+    .customers
+      .fa-angle-left
+        left: -1rem 
+      .fa-angle-right
+        right: -1rem
+      .customers-item
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        img 
+          width: auto
+        .info 
+          padding: .8rem
+          line-height: 1 
+          font-size: 1rem
+
+  .futer 
+    .right 
+      .form 
+        input
+          margin-left: 0
+        .button
+          margin-left: .3rem
+          width: 97.7%
+
+  .fifth 
+    margin-top: -3rem
+    .box 
+      .form 
+        input
+          margin-left: 0
+        .button
+          margin-left: 0
+
+  .first
+    background-size: cover
+    background-position: left
+    img
+      margin-left: 2rem
+      width: 6rem
+    .text
+      margin: 11rem 0 2rem
+      h4
+        font-size: 1.5rem
+        
+  .secondLeft
+    .text
+      p
+        span
+          line-height: 2rem
+    .img
+      padding: 0 0 1rem 0
+      img
+        width: 4rem
+
+  .secondRight
+    .text
+      padding: 0
+      order: 2
+      p
+        span
+          line-height: 2rem
+    .img
+      padding: 0 0 1rem 0
+      text-align: center 
+      order: 1
+      img
+        width: 7rem
+
+  .threeServices .threeServiseItem:nth-child(6) .servise1 
+    margin-left: -.3rem
+
+
+  .threeServices .threeServiseItem:nth-child(1) .servise1 
+      padding-left: 3.2vw
+  
+  .threeServices .threeServiseItem:nth-child(5) .servise1 
+      padding: 0 2rem 0 3rem
+  
+  .threeServices .threeServiseItem:nth-child(2) .servise1 
+      padding: 0 3rem
+  
+  .threeServices .threeServiseItem:nth-child(4) .servise1 
+      word-break: break-word
+      padding: 0 1.6rem
+  .threeServices  .servise1 
+    font-size: 1.2rem!important
+    text-align: center
+  .fourth
+    .info
+      margin-bottom: 2rem
+      padding-right: 0
+      font-size: 1rem
+      text-align: justify
+      font-weight: bold
+    .empl
+      width: 100%
+      height: 40%
+
+  .slider-team
+    .slider-team-item 
+      padding: 0 3rem 
+
+  .fifth
+    .left
+      padding: 0
+      .box
+        p
+          padding: .5rem .5rem .5rem 1rem
+          form1
+            input
+              margin-left: 0
+            .button
+              margin-left: 0
+    .right
+      padding: 0
+      .list
+        margin: .5rem 0 1rem 0
+        li
+          padding: .2rem
+  
+  .sixth
+    h5
+      font-size: 1.5rem
+      font-weight: bold
+    .customers
+      img
+        width: 10rem
+      .info
+        font-size: .7rem
+
+  .futer
+    .left
+      order: 2
+      .contacts
+        text-align: center
+        padding: 3rem 0
+    .right
+      order: 1
+      padding-top: 0 
+      h5
+        padding: 1rem
+        text-align: center
+      .form
+        padding-top: 1rem
+  
+  .vider
+    left: 1rem
+
+.form-error
+  margin: 0
+.viber 
+    right: 0
+    bottom: 0
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+  nav
+    .menu-desktop
+      display: flex
+    #menu-mobile
+      display: none
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
